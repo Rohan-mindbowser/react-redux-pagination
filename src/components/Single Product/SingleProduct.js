@@ -12,12 +12,12 @@ const SingleProduct = ({ product }) => {
         alt=""
       ></img>
       <Box mt={1}>
-        <Typography variant="span" sx={{ fontWeight: "500", fontSize: "26px" }}>
+        <Typography variant="span" sx={{ fontWeight: "500", fontSize: "28px" }}>
           {product.title}
         </Typography>
       </Box>
       <Box
-        my={1}
+        my={2}
         sx={{
           display: "flex",
           alignItems: "center",
@@ -44,7 +44,7 @@ const SingleProduct = ({ product }) => {
         </Box>
         <Favorite></Favorite>
       </Box>
-      <Box mt={1} sx={{ display: "flex", justifyContent: "space-between" }}>
+      <Box mt={2} sx={{ display: "flex", justifyContent: "space-between" }}>
         <Button sx={{ flex: "2" }} variant="contained">
           Buy Now <ShoppingBag></ShoppingBag>
         </Button>
